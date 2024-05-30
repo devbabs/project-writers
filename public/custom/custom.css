@@ -1,0 +1,78 @@
+:root {
+    --primary-color: #24a8e1;
+    --primary-dark-color: #242a64;
+}
+body {
+    /* background-color: #f5f5f5; */
+}
+.page-content {
+    min-height: 80vh;
+    padding-top: 70px;
+}
+/* nav.navbar {
+    box-shadow: 3px 3px 10px 7px rgba(0, 0, 0, .09);
+}
+nav.navbar .navbar-collapse {
+    flex-grow: unset;
+} */
+.bg-custom-primary-gradient {
+    background-image: linear-gradient(to right, var(--primary-color), var(--primary-dark-color)) !important;
+}
+.btn-custom-primary {
+    color: white;
+    background-color: var(--primary-color);
+}
+.text-custom-primary {
+    color: var(--primary-color);
+}
+.btn-custom-primary-dark {
+    color: white;
+    background-color: var(--primary-dark-color);
+}
+.home-hire-writer-form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 7px rgba(0, 0, 0, .1);
+    /* padding: 15px; */
+}
+.sidebar-order-container {
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 7px rgba(0, 0, 0, .1);
+}
+.sidebar-order-container-header {
+    padding: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sidebar-order-container-body {
+    background-color: white;
+    padding: 10px 15px;
+}
+.sidebar-order-container-body > div > small {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.sidebar-order-container-body > div > div {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.sidebar-order-container-footer {
+    border-top: 1px solid #f0f0f0;
+    padding: 15px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.faq-accordion-wrapper.accordion-wrapper .card-header button:before {
+    content: none;
+}
